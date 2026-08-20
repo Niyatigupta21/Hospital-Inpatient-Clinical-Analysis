@@ -1,122 +1,125 @@
 # 🏥 Hospital Inpatient Clinical Analysis
 
-An interactive Power BI dashboard designed to analyze hospital inpatient data and provide meaningful insights into patient demographics, severity of illness, treatment costs, hospital performance, and length of stay.
+An interactive **Power BI dashboard** designed to analyze hospital inpatient data and provide meaningful insights into patient volume, severity of illness, treatment costs, and length of stay.
 
-The dashboard transforms raw hospital data into an interactive analytical report using data cleaning, transformation, DAX calculations, and data visualization.
+The project focuses on transforming hospital data into an intuitive and interactive dashboard using **Power Query, DAX, data modeling, and data visualization**.
 
 ---
 
 ## 📊 Dashboard Preview
 
-![Hospital Inpatient Clinical Analysis Dashboard](screenshots/dashboard.png)
+![Hospital Inpatient Clinical Analysis Dashboard](dashboard.png)
 
 ---
 
 ## 🎯 Project Objective
 
-The objective of this project is to analyze hospital inpatient data and answer key business and healthcare-related questions such as:
+The objective of this project is to analyze hospital inpatient data and provide a clear overview of key healthcare metrics.
 
-- How many patients were admitted?
-- What is the average length of hospital stay?
-- How does treatment cost vary across hospitals?
-- What is the distribution of patients by severity of illness?
-- How are patients distributed across different demographic categories?
-- Which hospitals contribute the highest treatment costs?
-- How can interactive filtering help explore patient-level patterns?
+The dashboard helps explore questions such as:
+
+* How many patients were admitted?
+* What is the average length of hospital stay?
+* How does treatment cost vary across hospitals?
+* What is the distribution of patients by severity of illness?
+* How can patient data be explored using interactive filters?
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Power BI** – Dashboard development and visualization
-- **Power Query** – Data cleaning and transformation
-- **DAX** – Measures and calculated metrics
-- **Data Modeling** – Structuring data for analysis
-- **Data Visualization** – Interactive charts, KPIs and slicers
+* **Power BI** – Dashboard development and data visualization
+* **Power Query** – Data cleaning and transformation
+* **DAX** – Measures and KPI calculations
+* **Data Modeling** – Structuring data for analysis
+* **Data Visualization** – Interactive charts and dashboard design
 
 ---
 
 ## 📌 Key KPIs
 
-The dashboard provides an overview of important hospital metrics, including:
+The dashboard provides an overview of important inpatient metrics, including:
 
-- 👥 Total Patients
-- 💰 Total Treatment Cost
-- ⏱️ Average Length of Stay
-- 🏥 Hospital-wise Cost Analysis
-- 🩺 Severity of Illness Distribution
-- 👤 Patient Demographic Analysis
+* 👥 **Total Patients**
+* 💰 **Total Treatment Cost**
+* ⏱️ **Average Length of Stay**
+* 🏥 **Hospital-wise Treatment Cost**
+* 🩺 **Severity of Illness Distribution**
 
 ---
 
-## 📈 Dashboard Features
+## 📈 Dashboard Analysis
 
 ### 1. KPI Overview
 
-Provides a quick summary of the major hospital performance indicators.
+The dashboard provides a quick summary of the major inpatient healthcare metrics through interactive KPI cards.
 
-![KPI Overview](screenshots/kpi-overview.png)
+![KPI Overview](kpi-overview.png)
 
 ---
 
 ### 2. Hospital-wise Treatment Cost
 
-Compares treatment costs across hospitals to identify hospitals with higher and lower overall inpatient costs.
+This analysis compares the total treatment cost across different hospitals, helping identify variations in overall inpatient expenditure.
 
-![Hospital Cost Analysis](screenshots/hospital-cost-analysis.png)
+![Hospital Cost Analysis](hospital-cost-analysis.png)
 
 ---
 
 ### 3. Severity of Illness Analysis
 
-Visualizes the distribution of patients across different severity levels, helping understand the overall patient case mix.
+The severity analysis shows how patients are distributed across different levels of illness, providing an overview of the inpatient case mix.
 
-![Severity Analysis](screenshots/severity-analysis.png)
+![Severity Analysis](severity-analysis.png)
 
 ---
 
 ## 🎛️ Interactive Filters
 
-The dashboard includes interactive slicers that allow users to explore the data based on:
+The dashboard includes interactive filters that allow users to explore the data based on:
 
-- Gender
-- Severity of Illness
+* **Gender**
+* **Severity of Illness**
 
-The **Clear Filters** option allows users to quickly reset their selections.
-
----
-
-## 🔍 Key Insights
-
-The dashboard enables users to identify patterns and trends related to:
-
-- Patient severity
-- Hospital treatment costs
-- Average length of stay
-- Patient demographics
-- Distribution of inpatient cases
-
-These insights can help support data-driven understanding of hospital operations and patient characteristics.
+A **Clear Filters** option is also provided to reset the selected filters and return to the overall dashboard view.
 
 ---
 
-## 🧠 Data Analysis Process
+## 🔍 Analytical Insights
 
-The project follows a typical data analytics workflow:
+The dashboard enables users to explore patterns related to:
+
+* Patient volume
+* Severity of illness
+* Hospital treatment costs
+* Average length of stay
+* Patient demographics
+
+These analyses provide a high-level view of hospital inpatient characteristics and operational metrics.
+
+---
+
+## 🧠 Data Analysis Workflow
+
+The project follows a standard data analytics workflow:
 
 **Raw Data → Data Cleaning → Data Transformation → Data Modeling → DAX Measures → Visualization → Insights**
 
 ### Data Preparation
 
-The data was prepared and transformed using Power Query before being used for dashboard development.
+Data was cleaned and transformed using **Power Query** to prepare it for analysis and visualization.
 
 ### Data Modeling
 
-The dataset was structured to support efficient analysis and interactive filtering.
+The data was structured to support efficient analysis and interactive filtering within Power BI.
 
 ### DAX
 
-DAX measures were used to calculate key metrics and KPIs required for the dashboard.
+DAX measures were created to calculate the key metrics and KPIs presented in the dashboard.
+
+### Visualization
+
+Different visualizations were selected to make comparisons and distributions easier to understand while maintaining a clean and user-friendly dashboard design.
 
 ---
 
@@ -127,10 +130,46 @@ Hospital-Inpatient-Clinical-Analysis/
 │
 ├── Hospital_Inpatient_Clinical_Analysis.pbix
 ├── README.md
-│
-└── screenshots/
-    ├── dashboard.png
-    ├── kpi-overview.png
-    ├── hospital-cost-analysis.png
-    ├── severity-analysis.png
+├── dashboard.png
+├── hospital-cost-analysis.png
+├── kpi-overview.png
+└── severity-analysis.png
+```
 
+---
+
+## 🚀 Skills Demonstrated
+
+This project demonstrates practical skills in:
+
+* Data Cleaning & Transformation
+* Data Analysis
+* Power BI
+* Power Query
+* DAX
+* Data Modeling
+* KPI Development
+* Data Visualization
+* Dashboard Design
+* Interactive Reporting
+* Analytical Storytelling
+
+---
+
+## 📌 Conclusion
+
+The **Hospital Inpatient Clinical Analysis** dashboard demonstrates how Power BI can be used to transform hospital inpatient data into an interactive and visually intuitive analytical report.
+
+The project combines data preparation, analysis, DAX calculations, and visualization to present important healthcare metrics in a simple and accessible format.
+
+---
+
+## 👩‍💻 Author
+
+**Niyati Gupta**
+
+B.Tech Computer Science | Data Analytics & AI/ML Enthusiast
+
+---
+
+⭐ *If you found this project interesting, feel free to explore the dashboard and analysis.*

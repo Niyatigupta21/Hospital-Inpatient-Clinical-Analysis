@@ -75,14 +75,6 @@ Visualizes the distribution of patients across different severity levels, helpin
 
 ---
 
-### 4. Patient Analysis
-
-Provides demographic-level analysis and allows users to interactively explore patient data using filters.
-
-![Patient Analysis](screenshots/patient-analysis.png)
-
----
-
 ## 🎛️ Interactive Filters
 
 The dashboard includes interactive slicers that allow users to explore the data based on:
@@ -141,4 +133,4 @@ Hospital-Inpatient-Clinical-Analysis/
     ├── kpi-overview.png
     ├── hospital-cost-analysis.png
     ├── severity-analysis.png
-    └── patient-analysis.png
+
